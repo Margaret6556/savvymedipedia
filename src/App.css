@@ -1,0 +1,43 @@
+:root {
+  --background-color: beige;
+  --second-color: #fcf8f3;
+  --third-color: #ffd3b6;
+  --fourth-color: #698474;
+  --fifth-color: #ffaaa5;
+  --default-font: "Montserrat", sans-serif;
+  --second-font: "Playfair Display", serif;
+  --third-font: "Roboto Condensed", sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.App-home {
+  margin: 30px 30px;
+  text-align: center;
+  font-family: var(--third-font);
+  padding: 20px 0;
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.App-logo {
+  display: block;
+  max-width: 100px;
+  width: 200px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.home-h1 {
+  font-family: var(--second-font);
+  font-size: 56px;
+  border: 10px;
+  margin: 5px;
+}
+
+.App-footer {
+  text-align: center;
+  color: var(--fourth-color);
+}
