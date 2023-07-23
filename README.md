@@ -30,7 +30,7 @@ The dictionary is designed to assist medical professionals, students, researcher
    npm start
 
 4. Access the Dictionary:
-   Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to access the medical dictionary.
+   Open your web browser and navigate to [http://localhost:3000] to access the medical dictionary.
 
 ## 🤝 Contributing:
 

@@ -9,7 +9,7 @@ export default function Photos({ photos }) {
           <div className="row">
             {photos.map((photo, index) => {
               return (
-                <div className="col-6" key={index[1]}>
+                <div className="col-6" key={index}>
                   <a
                     href={photo.src.original}
                     target="_blank"

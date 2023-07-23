@@ -8,6 +8,7 @@ export default function Results({ results }) {
       <div className="Results">
         <section>
           <h2> {results.word}</h2>
+          console.log(results.asthm, results.word);
           {results.meanings.map((meanings, index) => {
             return (
               <div key={index}>
