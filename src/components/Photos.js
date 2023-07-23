@@ -20,17 +20,12 @@ export default function Photos({ photos }) {
                       alt="litrato"
                       className="img-fluid"
                     />
-                                     {" "}
                   </a>
-                                 {" "}
                 </div>
               );
             })}
-                     {" "}
           </div>
-                 {" "}
         </section>
-             {" "}
       </div>
     );
   } else {

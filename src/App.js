@@ -14,6 +14,7 @@ export default function App() {
               Medical Terminologies doesn't have to be so <span>😰 </span>
               confusing!
             </p>
+
             <h2>Welcome to your</h2>
             <h1 className="home-h1"> Modern Medical Dictionary</h1>
             <main className="Search">

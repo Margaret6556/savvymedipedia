@@ -1,12 +1,13 @@
 .img-fluid {
   display: flex;
   margin-bottom: 15px;
-  max-width: 420px;
-  max-height: 300px;
+  max-width: 320px;
+  max-height: 240px;
   border-radius: 4px;
 }
 
 .col-4 {
   display: flex;
   justify-content: space-around;
+  margin-top: 10px;
 }
