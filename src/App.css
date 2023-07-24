@@ -35,6 +35,7 @@ body {
   font-size: 56px;
   border: 10px;
   margin: 5px;
+  font-weight: 600;
 }
 
 .App-footer {
