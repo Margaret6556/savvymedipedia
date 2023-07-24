@@ -11,7 +11,10 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
           <div className="row">
             <p>
-              Medical Terminologies doesn't have to be so <span> 😰 </span>
+              Medical Terminologies doesn't have to be so{" "}
+              <span role="img" aria-label="confused">
+                😰
+              </span>
               confusing!
             </p>
 
