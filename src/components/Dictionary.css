@@ -3,7 +3,7 @@
   border-radius: 10px;
   background: var(--third-color);
   margin-top: 15px;
-  padding: 30px 30px;
+  padding: 30px 10px;
 }
 
 .Dictionary .search-input-form {
@@ -17,4 +17,19 @@
 .Dictionary .hint {
   font-style: italic;
   font-size: 20px;
+}
+
+@media (max-width: 900px) {
+  .Dictionary section {
+    padding: 80px 20px;
+  }
+
+  .search-input-form {
+    padding: 10px;
+    width: 60%;
+    border-radius: 40px;
+    font-size: 20px;
+    margin: 10px 20px;
+    line-height: 10px;
+  }
 }

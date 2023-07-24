@@ -11,3 +11,10 @@
   justify-content: space-around;
   margin-top: 10px;
 }
+
+@media (max-width: 900px) {
+  .img-fluid {
+    max-width: 200px;
+    max-height: 150px;
+  }
+}

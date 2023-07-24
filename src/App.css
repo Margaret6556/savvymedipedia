@@ -42,3 +42,9 @@ body {
   text-align: center;
   color: var(--fourth-color);
 }
+
+@media (max-width: 900px) {
+  .home-h1 {
+    font-size: 30px;
+  }
+}

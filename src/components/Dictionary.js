@@ -53,7 +53,7 @@ export default function Dictionary() {
           />
         </form>
         <div className="hint">
-          hint: asthma, copd, anemia, diverticulitis...
+          hint: asthma, migraine, anemia, diverticulitis...
         </div>
       </section>
       <Results results={results} />
