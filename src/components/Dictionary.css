@@ -2,8 +2,9 @@
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
   background: var(--third-color);
-  margin-top: 15px;
-  padding: 30px 10px;
+  margin-top: 10px;
+  padding: 10px 10px;
+  line-height: 15px;
 }
 
 .Dictionary .search-input-form {
@@ -19,9 +20,9 @@
   font-size: 20px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .Dictionary section {
-    padding: 80px 20px;
+    padding: 20px 20px;
   }
 
   .search-input-form {

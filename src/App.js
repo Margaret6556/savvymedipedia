@@ -8,7 +8,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-home">
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
+          <img src={logo} className="App-logo" alt="logo" />
           <div className="row">
             <p>
               Medical Terminologies doesn't have to be so{" "}
