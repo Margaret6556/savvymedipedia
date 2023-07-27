@@ -24,10 +24,10 @@ body {
 
 .App-logo {
   display: block;
-  max-width: 100px;
-  width: 200px;
-  height: 80px;
+  max-width: 300px;
+  max-height: 200px;
   margin: 0 auto;
+  margin-bottom: 15px;
 }
 
 .home-h1 {
@@ -41,4 +41,10 @@ body {
 .App-footer {
   text-align: center;
   color: var(--fourth-color);
+}
+
+@media (max-width: 800px) {
+  .home-h1 {
+    font-size: 30px;
+  }
 }
