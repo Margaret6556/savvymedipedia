@@ -26,7 +26,7 @@ export default function App() {
           </div>
         </header>
         <footer className="App-footer">
-          This is coded by
+          Made with <span> ❤️ </span>by
           <a href="https://margaretcezar.com"> Margaret Cezar</a> and is
           open-sourced on
           <a href="https://github.com/Margaret6556/savvymedipedia">
