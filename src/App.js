@@ -1,13 +1,15 @@
 import React from "react";
 import logo from "./logo.png";
 import "./App.css";
-import Dictionary from "./components/Dictionary";
+import Dictionary from "./src/components/Dictionary";
+import Navbar from "./src/components/Navbar";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
         <header className="App-home">
+          <Navbar />
           <img src={logo} className="App-logo" alt="logo" />
           <div className="row">
             <p>
@@ -26,7 +28,7 @@ export default function App() {
           </div>
         </header>
         <footer className="App-footer">
-          Made with <span> ❤️ </span>by
+          Made with <span role="img"> ❤️ </span> by
           <a href="https://margaretcezar.com"> Margaret Cezar</a> and is
           open-sourced on
           <a href="https://github.com/Margaret6556/savvymedipedia">
