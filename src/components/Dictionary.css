@@ -27,10 +27,14 @@
 
   .search-input-form {
     padding: 10px;
-    width: 40%;
+    width: 80%;
     border-radius: 40px;
     font-size: 20px;
     margin: 10px 20px;
     line-height: 5px;
+  }
+
+  .Dictionary.hint {
+    font-size: 12px;
   }
 }
