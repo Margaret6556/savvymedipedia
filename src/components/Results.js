@@ -9,13 +9,11 @@ export default function Results({ results }) {
       <div className="Results">
         <section>
           <h2> {results.word}</h2>
-          {results.meanings.map((meanings, index) => {
-            return (
-              <div key={index}>
-                <Meaning meaning={meanings} /> <br />
-              </div>
-            );
-          })}
+          <div>
+            <Meaning meaning={results.meanings[2]} /> <br />
+            <Meaning meaning={results.meanings[3]} /> <br />
+            <Meaning meaning={results.meanings[1]} /> <br />
+          </div>
         </section>
       </div>
     );
