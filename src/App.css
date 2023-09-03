@@ -43,7 +43,7 @@ body {
   color: var(--fourth-color);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .home-h1 {
     font-size: 30px;
   }
