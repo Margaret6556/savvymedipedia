@@ -2,7 +2,7 @@ import React from "react";
 import "./Meaning.css";
 
 export default function Meaning({ meaning }) {
-  console.log(meaning);
+  // console.log(meaning);
 
   return (
     <div className="Meaning">
