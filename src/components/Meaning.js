@@ -14,3 +14,6 @@ export default function Meaning({ meaning }) {
     </div>
   );
 }
+
+
+
