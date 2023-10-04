@@ -9,16 +9,10 @@ export default function Results({ results }) {
         <section>
           <h2> {results.word}</h2>
           <div>
-            {results.meanings[2] && <Meaning meaning={results.meanings[2]} />}{" "}
-            <br />
-            {results.meanings[3] && (
-              <Meaning meaning={results.meanings[3]} />
-            )}{" "}
-            <br />
-            {results.meanings[1] && (
-              <Meaning meaning={results.meanings[1]} />
-            )}{" "}
-            <br />
+            {results.meanings &&
+              results.meanings.map((meaning, index) =>
+                index < 3 ? <Meaning meaning={meaning} /> : null
+              )}
           </div>
         </section>
       </div>
