@@ -4,6 +4,9 @@ import Results from "./Results";
 import Photos from "./Photos";
 import "./Dictionary.css";
 
+// This line enables dotenv
+require("dotenv").config();
+
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
   let [results, setResults] = useState(null);
@@ -22,16 +25,17 @@ export default function Dictionary() {
   }
 
   function search(event) {
-    event.preventDefault(); //api code source from Paul (SC) + UMLS
-    let apiKey = "39284b94tea8fb240cc5d3o3a355d5a0";
+    event.preventDefault();
+
+    let apiKey = process.env.REACT_APP_DICTIONARY_API_KEY;
     let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
     axios.get(apiUrl).then(handleDictionaryResponse);
 
-    const shecodesImgApikey = "39284b94tea8fb240cc5d3o3a355d5a0";
+    const shecodesImgApikey = process.env.REACT_APP_SHECODES_IMG_API_KEY;
     let shecodesImgUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${shecodesImgApikey}&perrow=3`;
     axios.get(shecodesImgUrl).then(handleScImgResponse);
 
-    let nlmapiKey = "4a2e4532-8028-45f5-bc50-f05be550ae6a";
+    let nlmapiKey = process.env.REACT_APP_NLM_API_KEY;
     let nlmapiUrl = `https://uts-ws.nlm.nih.gov/rest/search/current?apiKey=${nlmapiKey}&string=${keyword}`;
     axios.get(nlmapiUrl).then(handlenlm);
   }
