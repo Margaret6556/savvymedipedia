@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./savvymedipedialogo.png";
+import logo from "./savvymedipedialogo_cropped.png";
 import "./App.css";
 import Dictionary from "./components/Dictionary";
 
