@@ -3,6 +3,8 @@ import logo from "./savvymedipedialogo.png";
 import "./App.css";
 import Dictionary from "./components/Dictionary";
 
+require("dotenv").config();
+
 export default function App() {
   return (
     <div className="App">
