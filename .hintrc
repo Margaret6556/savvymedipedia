@@ -10,5 +10,10 @@
     "not ios_saf <= 14.8",
     "not opera <= 99",
     "not safari <= 14.1"
-  ]
+  ],
+  "hints": {
+    "meta-viewport": "off",
+    "apple-touch-icons": "off",
+    "meta-charset-utf-8": "off"
+  }
 }
