@@ -13,7 +13,7 @@ export default function App() {
           <img src={logo} className="App-logo" alt="logo" />
           <div className="row">
             <p>
-              Medical Terminologies doesn't have to be so{" "}
+              Medical Terminologies don't have to be so{" "}
               <span role="img" aria-label="confused">
                 😰
               </span>
