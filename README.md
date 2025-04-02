@@ -1,6 +1,6 @@
 -------------------------Hi everyone 👋🏻😊----------------------------
 
-# Welcome to savvymedipedia.com
+# Welcome to Savvymedipedia. Deploy link - https://savvymedipedia.netlify.app/
 
 ## 🔖 The Official Medical Dictionary
 
