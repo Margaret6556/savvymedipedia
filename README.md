@@ -9,8 +9,8 @@ Medical Terminologies don't have to be so 🤯 confusing!
 Welcome to your Modern Medical Dictionary.
 The savvy's guide to learning medical terminologies flawlessly!
 
-This open-source project aims to provide a comprehensive and accessible dictionary of medical terms and definitions.
-The dictionary is designed to assist medical professionals, students, researchers, and anyone interested in learning about medical terminology.
+This open-source project that aims to provide a comprehensive and accessible dictionary of medical terms and definitions.
+An online platform dedicated to providing reliable and easy-to-understand medical information. The website serves as a comprehensive resource for individuals looking to educate themselves about various medical conditions, treatments, and healthcare practices.
 
 ## 🔥Features - Database: The dictionary includes a vast collection of medical terms and their corresponding definitions, covering a wide range of medical specialties and topics (will evolve).
 
@@ -51,6 +51,15 @@ If you would like to contribute, please follow these steps:
 5. Open a Pull Request: Submit your changes for review. Provide a clear description of the changes made and any relevant information.
 
 Feel free to use, modify, and distribute the code, subject to the terms and conditions of the license.
+
+##Technologies UsedFrontend: React.js
+Backend: Node.js 
+Hosting: Netlify
+Database: discontinued
+APIs: limited request from NHI
+
+##Deployment
+SavvyMedipedia is deployed using Netlify, ensuring high availability and fast performance.
 
 ## Top Contributors:
 
