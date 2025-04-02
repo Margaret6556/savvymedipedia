@@ -1,6 +1,6 @@
 -------------------------Hi everyone 👋🏻😊----------------------------
 
-# Welcome to Savvymedipedia. Deploy link - https://savvymedipedia.netlify.app/
+# Welcome to Savvymedipedia.
 
 ## 🔖 The Official Medical Dictionary
 
@@ -60,6 +60,10 @@ APIs: limited request from NHI
 
 ##Deployment
 SavvyMedipedia is deployed using Netlify, ensuring high availability and fast performance.
+Deploy link - https://savvymedipedia.netlify.app/
+
+Screenshot:
+![image](https://github.com/user-attachments/assets/81c55567-0999-4df5-8764-72770410ce6a)
 
 ## Top Contributors:
 
